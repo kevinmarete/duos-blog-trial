@@ -16,9 +16,9 @@ editor below, then say which you would want to use every day, and where you got 
 | Pages CMS | https://app.pagescms.org, then pick `kevinmarete/duos-blog-trial` | Sign in with GitHub |
 | GitHub's editor | "Edit this page" at the bottom of any article, or "Add file" on the `blog` folder | Already signed in to GitHub |
 
-**GitHub token for Sveltia:** GitHub, Settings, Developer settings, Personal access tokens,
-Fine-grained tokens, Generate new token. Resource owner: `kevinmarete`; repository:
-`duos-blog-trial` only; permission: Contents read and write. Delete it when the trial is over.
+**GitHub token for Sveltia:** open https://github.com/settings/tokens/new?scopes=public_repo&description=DUOS%20editor%20trial,
+set an expiry of 7 days, click Generate token, and paste the token into Sveltia. Fine-grained tokens
+can't reach a repo on another person's account, so use this classic one. Delete it when the trial is over.
 
 ## How the site is built
 
