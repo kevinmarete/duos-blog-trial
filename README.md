@@ -12,7 +12,7 @@ editor below, then say which you would want to use every day, and where you got 
 
 | Editor | How to open it | Sign in |
 | --- | --- | --- |
-| Sveltia CMS | https://kevinmarete.github.io/duos-blog-trial/admin/ | "Sign in with token", using a GitHub token (see below) |
+| Sveltia CMS | https://kevinmarete.github.io/duos-blog-trial/admin/ | "Sign In Using Access Token" with a GitHub token (see below). "Sign In with GitHub" does not work on this trial |
 | Pages CMS | https://app.pagescms.org, then pick `kevinmarete/duos-blog-trial` | Sign in with GitHub |
 | GitHub's editor | "Edit this page" at the bottom of any article, or "Add file" on the `blog` folder | Already signed in to GitHub |
 
