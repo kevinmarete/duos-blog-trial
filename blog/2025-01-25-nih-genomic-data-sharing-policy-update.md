@@ -1,0 +1,16 @@
+---
+title: "Are you compliant with NIH’s updated Genomic Data Sharing policy?"
+slug: "/2025/01/25/hello-world"
+date: "2025-01-25"
+description: "On July 25, 2024, the National Institutes of Health (NIH) issued updated guidance to the Genomic Data Sharing Policy stating that researchers approved for controlled-access NIH data, via mechanisms…"
+tags: ["Policy briefs"]
+---
+On July 25, 2024, the [National Institutes of Health (NIH) issued updated guidance to the Genomic Data Sharing Policy](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-24-157.html) stating that researchers approved for controlled-access NIH data, via mechanisms like [dbGaP](https://www.ncbi.nlm.nih.gov/gap/) or [DUOS](https://duos.org/), must store and analyze this data on systems that are NIST SP 800-171 compliant (or the equivalent ISO/IEC 27001/27002) starting January 25, 2025.
+
+If you are using Terra or NIH Platforms like [AnVIL](https://terra.bio/anvil-platform-helps-meet-the-new-nih-data-management-and-sharing-policy-requirements/) that are powered by Terra, you are already compliant.
+
+The update requires researchers and institutions using NIH controlled-access data to attest that  systems interacting with this data are compliant with NIST SP 800-171. Many university and institutes’ IT departments are urgently determining remediation pathways for their internal clusters and systems, including what new policies and training will need to be rolled out to their staff to be compliant by January. While many institutions are rapidly working to identify, invest, and implement critical security upgrades to meet NIST SP 800-171 compliance, it is vital that IT and compliance departments can inform researchers about which systems meet these security criteria.
+
+Luckily, there is a solution: [Terra](https://app.terra.bio/) and NIH platforms like [AnVIL](https://terra.bio/anvil-platform-helps-meet-the-new-nih-data-management-and-sharing-policy-requirements/) that are powered by Terra already meet NIST SP 800-171 as well as the more rigorous NIST SP 800-53 (FedRAMP Moderate). IT and compliance departments can direct users to Terra and AnVIL, and simply acknowledge use of these systems in the attestation process. It’s as easy as that!
+
+If you have any questions or would like to discuss your specific situation, please contact [support@terra.bio](mailto:support@terra.bio). We would be glad to assist you.

@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: kevinmarete/duos-blog-trial
+  branch: main
+site_url: https://kevinmarete.github.io/duos-blog-trial/
+media_folder: static/article-images
+public_folder: /article-images
+collections:
+  - name: blog
+    label: Blog posts
+    folder: blog
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    sortable_fields: [date, title]
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime, date_format: YYYY-MM-DD, time_format: false, format: YYYY-MM-DD }
+      - { label: Summary, name: description, widget: text, hint: Shown on the article list and in link previews }
+      - label: Category
+        name: tags
+        widget: select
+        multiple: true
+        options: [Blog posts, Feature announcements, In the news, Policy briefs, User guides]
+      - label: Authors
+        name: authors
+        widget: list
+        required: false
+        fields:
+          - { label: Name, name: name, widget: string }
+      - { label: Old duos.blog path, name: slug, widget: string, required: false, hint: Leave empty for new articles }
+      - { label: Body, name: body, widget: markdown }
